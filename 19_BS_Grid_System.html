@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+        .bg-teal{
+            background-color: #0f4444;
+        }
+        .text-teal{
+            color: #0f4444;
+        }
+        img{
+            box-shadow: 0 0 10px #0f4444;
+        }
+    </style>
+    <title>Grid System in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+    <a class="navbar-brand" href="#">Grid System in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+    <!-- Grid 1 -->
+    <h3>Basic Grid</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-primary p-3 text-white">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at consequuntur cum dignissimos eveniet ex molestiae, perferendis quod sint. Architecto consequatur dolor dolorem, eveniet ipsa maxime modi perferendis quo repellat voluptates. Aspernatur esse eum eveniet ipsam odio officiis placeat veniam.</p>
+            </div>
+            <div class="col-md-4 bg-success p-3 text-white">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at consequuntur cum dignissimos eveniet ex molestiae, perferendis quod sint. Architecto consequatur dolor dolorem, eveniet ipsa maxime modi perferendis quo repellat voluptates. Aspernatur esse eum eveniet ipsam odio officiis placeat veniam.</p>
+            </div>
+            <div class="col-md-4 bg-warning p-3 text-white">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at consequuntur cum dignissimos eveniet ex molestiae, perferendis quod sint. Architecto consequatur dolor dolorem, eveniet ipsa maxime modi perferendis quo repellat voluptates. Aspernatur esse eum eveniet ipsam odio officiis placeat veniam.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsive grid -->
+    <h3>Responsive Grid</h3>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-6 col-xl-8 bg-danger text-white p-3">
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet animi assumenda at, atque cum deleniti dignissimos doloribus ea eius est explicabo facilis fugit itaque iure magnam maiores modi molestiae non, nostrum quibusdam quo quos ratione recusandae totam? Illo, sit.
+                </p>
+            </div>
+            <div class="col-sm-6 col-md-8 col-lg-6 col-xl-4 bg-dark text-white  p-3">
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam architecto blanditiis cum cupiditate debitis delectus deserunt dicta distinctio dolorem dolores eaque eius error esse expedita explicabo harum inventore ipsum iste iusto labore maxime mollitia nam placeat porro provident, quae quaerat qui quia recusandae repudiandae sit ut voluptas voluptatum!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nested Grid -->
+    <h3>Nested Grid</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-warning">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur delectus explicabo, laborum magnam, nisi quasi quibusdam quisquam quos repellat rerum soluta voluptates! Dignissimos dolore dolores error est fugiat incidunt laudantium, minima neque praesentium recusandae repudiandae similique tempore voluptates. Expedita.</p>
+            </div>
+            <div class="col-md-8 bg-success">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid ea facilis fugit in maxime necessitatibus placeat qui voluptate. At id maxime placeat praesentium ratione recusandae temporibus! Accusamus ad asperiores dolorum eaque iusto reiciendis repudiandae. Adipisci dicta, eligendi est labore molestias neque nobis numquam obcaecati odio qui sunt tempora.</p>
+                <div class="row">
+                    <div class="col-md-6 bg-primary">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in labore nemo quibusdam veniam. Animi corporis doloribus eius esse, facere inventore minima molestiae nemo nesciunt ratione repellendus, reprehenderit sequi voluptates.</p>
+                    </div>
+                    <div class="col-md-6 bg-danger">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in labore nemo quibusdam veniam. Animi corporis doloribus eius esse, facere inventore minima molestiae nemo nesciunt ratione repellendus, reprehenderit sequi voluptates.</p>
+                        <div class="row">
+                            <div class="col-md-6 bg-teal">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ducimus minus nam nobis quia quo recusandae saepe velit voluptas voluptate.</p>
+                            </div>
+                            <div class="col-md-6 bg-secondary">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ducimus minus nam nobis quia quo recusandae saepe velit voluptas voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Examples -->
+    <section class="p-3 bg-teal mt-4 text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h6 class="display-4">We Provide Best Training for UI Technologies and MEAN Stack</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur delectus ea et facilis fugiat laudantium maxime nesciunt non perspiciatis repellat, reprehenderit vel voluptatibus! Animi consequatur obcaecati praesentium sapiente similique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Java Section -->
+    <section class="p-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="font-weight-bold text-teal">The Complete Java Course</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem deserunt doloremque error ex, excepturi fuga illum iste minima modi nemo, quos voluptatibus. Accusamus accusantium aspernatur dolore illo, non quia velit voluptatibus! Alias animi dolorum ex excepturi laudantium nam numquam odio quasi quisquam vero. Ad adipisci ipsum nemo ut.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/java.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Java Section -->
+<section class="p-4 bg-dark text-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="img/java.jpg" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-6">
+                <h2 class="font-weight-bold text-teal">The Complete Java Course</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem deserunt doloremque error ex, excepturi fuga illum iste minima modi nemo, quos voluptatibus. Accusamus accusantium aspernatur dolore illo, non quia velit voluptatibus! Alias animi dolorum ex excepturi laudantium nam numquam odio quasi quisquam vero. Ad adipisci ipsum nemo ut.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Java Section -->
+<section class="p-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="font-weight-bold text-teal">The Complete Java Course</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem deserunt doloremque error ex, excepturi fuga illum iste minima modi nemo, quos voluptatibus. Accusamus accusantium aspernatur dolore illo, non quia velit voluptatibus! Alias animi dolorum ex excepturi laudantium nam numquam odio quasi quisquam vero. Ad adipisci ipsum nemo ut.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/java.jpg" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </div>
+</section>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>

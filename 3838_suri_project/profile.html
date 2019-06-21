@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>UiBrains Dashboard</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+</head>
+<style>
+    .btn-info{
+        background: linear-gradient(45deg, black,purple);
+    }
+
+</style>
+<body>
+
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm animated zoomIn">
+    <div class="container">
+        <a href="index.html" class="navbar-brand text-warning">
+            <i class="fa fa-snowflake"></i> UiBrains</a>
+        <button class="navbar-toggler" data-target="#ui-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ui-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa fa-chart-bar text-muted"></i> Dashboard</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="tasks.html" class="nav-link">
+                        <i class="fa fa-list text-muted"></i> Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="nav-link">
+                        <i class="fa fa-sitemap text-muted"></i> Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="employees.html" class="nav-link">
+                        <i class="fa fa-users text-muted"></i> Employees</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <i class="fa fa-sign-in-alt text-muted"></i> Naveen
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="profile.html" class="dropdown-item">
+                            <i class="fa fa-user-circle"></i> Profile</a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fa fa-cog"></i> Settings</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a href="login.html" class="nav-link">
+                        <i class="fa fa-sign-out-alt text-muted"></i> SignOut</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Profile Page -->
+<section class="p-2 bg-success text-white animated flip">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2><i class="fa fa-user"></i> profile</h2>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Button Section -->
+<section class="p-2 bg-light text-white animated jello">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ">
+               <a href="#" class="btn btn-primary  btn-block">
+                   <i class="fa fa-arrow-circle-right"></i> dashboard</a>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3 align-items-center">
+                <a href="#" class="btn btn-warning  btn-block">
+                    <i class="fa fa-key"></i> change-password</a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-info btn-block">
+                    <i class="fa fa-times-circle"></i> delete account</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Main Profile Section -->
+<section class="p-2  text-white animated flipInY">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h2>About me</h2>
+                    </div>
+                    <div class="card-body bg-success">
+                        <h1>suri dsr</h1>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body bg-secondary text-white">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, aut cupiditate dolor doloremque eaque, eius eveniet expedita harum hic, illo in incidunt inventore laboriosam necessitatibus numquam odit perspiciatis saepe sapiente sequi sint totam ullam veritatis. Ab, animi eveniet? Eius, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="card-body bg-warning text-white">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, aut cupiditate dolor doloremque eaque, eius eveniet expedita harum hic, illo in incidunt inventore laboriosam necessitatibus numquam odit perspiciatis saepe sapiente sequi sint totam ullam veritatis. Ab, animi eveniet? Eius, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-info text-white">
+                        <h3>Thank You <i class="fa fa-smile text-teal"></i></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="col-md-3">
+   <div class="profile-zoom ">
+       <img src="img/IMG_20181128_133103.jpg"class="img-fluid">
+   </div>
+    <a href="#" class="btn btn-success btn-block  text-warning mt-3">
+        <i class="fa fa-image"></i> edit-image</a>
+    <a href="#" class="btn btn-pink btn-block  text-info mt-3">
+        <i class="fa fa-image"></i> delete-image</a>
+</div>
+</section>
+<!-- Main Footer -->
+<footer class="p-3 bg-dark text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Copyright © 2019 , UiBrains.com</h3>
+                <h6>All Rights Reserved</h6>
+                <h6>Developed & Maintained by
+                    <a class="text-warning" href="https://github.com/thenaveensaggam" target="_blank">
+                        <i class="fa fa-users text-warning"></i> UiBrains Techno Labs</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../../bootstrap/js/popper.min.js"></script>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<script src="../../bootstrap/js/mdb.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.11.4/standard/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'editor1' );
+</script>
+</body>
+</html>

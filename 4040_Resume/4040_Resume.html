@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+        body{
+            background-image: url("dsr/ice.jpg");
+            background-attachment: fixed;
+        }
+        .text-dark{
+            background-image: url("../1234_css-bootstrap/dsr/nn-3.jpg");
+
+            color: teal;
+            text-align: center;
+            font-size: 30px;
+            height: 100%;
+        }
+        .aside{
+            height: 100%;
+            position: fixed;
+            width: 400px;
+        }
+        .course-img{
+            margin-top: -50px;
+            box-shadow: 0 0 10px orangered;
+            text-align: center;
+            margin-left: 50px;
+        }
+        .text-light{
+           color: teal!important;
+        }
+        .rotate{
+            transition: all 0.5s;
+
+            color: whitesmoke;
+        }
+        .rotate:hover{
+            transform: perspective(400px) translateY(-20px);
+            background:linear-gradient(40deg,green,blue);
+        }
+        .skew{
+
+            color: white;
+            transition: all 0.5s;
+        }
+        .skew:hover{
+            transform: skew(30deg);
+            background:linear-gradient(40deg,orangered,yellow);
+        }
+        .skewx{
+
+            color: white;
+            transition: all 0.5s;
+        }
+        .skewx:hover{
+            transform: perspective(400px) rotateX(20deg);
+            background:linear-gradient(40deg,teal,blue);
+        }
+        .trans{
+
+            color: white;
+            transition: all 0.5s;
+        }
+        .trans:hover{
+            transform: perspective(400px) translateY(-20px);
+            background:linear-gradient(40deg,orangered,yellow);
+        }
+        .schl{
+
+            color: white;
+            transition: all 0.5s;
+        }
+        .schl:hover{
+            transform: perspective(400px) translateX(-20px);
+            background:linear-gradient(40deg,black,blueviolet);
+        }
+        .header{
+
+            transition: all 0.5s;
+        }
+        .header:hover{
+            transform: scale(1.2,1.2);
+        }
+        .exp{
+            color: white;
+            transition: all 0.5s;
+
+        }
+        .exp:hover{
+            transform: rotateY(50deg);
+            background:linear-gradient(40deg,orangered,yellow);
+        }
+        .bg-warning{
+            background:linear-gradient(40deg,black,green);
+            color: white;
+        }
+        .pk{
+            border: 10px solid blue;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .text{
+            color:orangered;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+<section class="p-3">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card aside">
+                    <div class="card-body text-dark">
+                        <img src="dsr/pspk00.jpg " class="img-fluid img-thumbnail rounded-circle w-50 pk"><br>
+                        <a href="#" class="mt-5 text">about</a><br>
+                        <a href="#exp-section"class="mt-5 text">experience</a><br>
+                        <a href="#edu-section"class="mt-5 text">education</a><br>
+                        <a href="#skills-section"class="mt-5 text">skills</a><br>
+                        <a href="#intrest-section"class="mt-5 text">intrest</a><br>
+                        <a href="#certificates-section"class="mt-5 text">certificates</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card header">
+                    <div class="card-body ">
+                        <h1 class="text-warning mt-5 display-2 text-center"><i>Surendra Dasari</i></h1>
+                        <h1 class="text-light">Plot No. 1471 , Jubliee Hills , Hyderabad</h1>
+                        <p class="text-muted text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquam blanditiis consequatur cum distinctio exercitationem illo in ipsum iusto labore laudantium libero modi molestias necessitatibus neque nisi quibusdam quos, recusandae repudiandae suscipit totam ullam velit veritatis. In nemo perspiciatis, quae quas quibusdam totam unde. At cupiditate laborum modi nam nihil?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<section class="exp-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card ">
+                    <div class="card-header">
+                        <h1 class="font-weight-bold text-success"> My Experience</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="exp-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card ">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card exp">
+                    <div class="card-body">
+                        <h1 class="text-success">Web Developer</h1>
+                        <p class="text-muted mt-3 text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur dolorem eligendi esse facere fuga illum ipsa ipsam minima nam, numquam praesentium tenetur ut velit voluptate. Ab accusantium, aliquam culpa dolor dolores eius et eum eveniet explicabo id illo inventore, itaque libero modi nisi obcaecati pariatur perferendis quaerat voluptatibus voluptatum?</p>
+                        <h1 class="text-center bg-danger text-success">Read More</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card exp">
+                    <div class="card-body">
+                        <h1 class="text-success">Web Developer</h1>
+                        <p class="text-muted mt-3 text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur dolorem eligendi esse facere fuga illum ipsa ipsam minima nam, numquam praesentium tenetur ut velit voluptate. Ab accusantium, aliquam culpa dolor dolores eius et eum eveniet explicabo id illo inventore, itaque libero modi nisi obcaecati pariatur perferendis quaerat voluptatibus voluptatum?</p>
+                        <h1 class="text-center bg-danger text-success">Read More</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="edu-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="font-weight-bold text-success"> My Education</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="edu-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card schl">
+
+                    <div class="card-body">
+
+                        <h1 class="text-success text-center bg-warning">School</h1>
+                        <p class="text-muted text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci corporis cum delectus dignissimos doloremque enim harum, ipsum laborum magni, maxime necessitatibus nemo nostrum perspiciatis quae quod ratione reprehenderit tempora velit vero. Architecto consequatur, ducimus expedita explicabo laudantium maxime sint!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+
+                </div>
+            </div>
+            <div class="col-md-8 mt-4">
+                <div class="card schl">
+                    <div class="card-body">
+                        <h1 class="text-success text-center bg-warning">College</h1>
+                        <p class="text-muted text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci corporis cum delectus dignissimos doloremque enim harum, ipsum laborum magni, maxime necessitatibus nemo nostrum perspiciatis quae quod ratione reprehenderit tempora velit vero. Architecto consequatur, ducimus expedita explicabo laudantium maxime sint!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+
+                </div>
+            </div>
+            <div class="col-md-8 mt-4">
+                <div class="card schl">
+                    <div class="card-body">
+                        <h1 class="text-primary text-center bg-danger">University</h1>
+                        <p class="text-muted text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci corporis cum delectus dignissimos doloremque enim harum, ipsum laborum magni, maxime necessitatibus nemo nostrum perspiciatis quae quod ratione reprehenderit tempora velit vero. Architecto consequatur, ducimus expedita explicabo laudantium maxime sint!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="skills-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="font-weight-bold text-success"> My Skills</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card trans">
+
+                    <div class="card-body">
+
+                        <h1 class="text-success text-center bg-secondary">UI Development</h1>
+                        <i class="fab fa-html5 fa-4x text-primary"></i>
+                        <i class="fab fa-css3 fa-4x text-primary"></i>
+                        <i class="fab fa-java fa-4x text-primary"></i>
+                        <i class="fab fa-angular fa-4x text-primary"></i>
+                        <i class="fab fa-node-js fa-4x text-primary"></i>
+                        <p class=" text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci corporis cum delectus dignissimos doloremque enim harum, ipsum laborum magni, maxime necessitatibus nemo nostrum perspiciatis quae quod ratione reprehenderit tempora velit vero. Architecto consequatur, ducimus expedita explicabo laudantium maxime sint!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card trans">
+                    <div class="card-body">
+                        <h1 class="text-success text-center bg-secondary">Mean Stack</h1>
+                        <i class="fab fa-react fa-4x text-primary"></i>
+                        <i class="fab fa-sass fa-4x text-primary"></i>
+                        <i class="fab fa-npm fa-4x text-primary"></i>
+                        <i class="fab fa-angular fa-4x text-primary"></i>
+                        <i class="fab fa-node-js fa-4x text-primary"></i>
+                        <p class=" text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci corporis cum delectus dignissimos doloremque enim harum, ipsum laborum magni, maxime necessitatibus nemo nostrum perspiciatis quae quod ratione reprehenderit tempora velit vero. Architecto consequatur, ducimus expedita explicabo laudantium maxime sint!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="intrest-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+            <div class="card ">
+                <div class="card-header">
+                    <h1 class="text-info">My Intrest</h1>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="intrest-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card skewx">
+                    <div class="card-body">
+                        <h1 class="text-success">Coading</h1>
+                        <i class="fab fa-apple fa-4x text-warning"></i>
+                        <i class="fab fa-archway fa-4x text-warning"></i>
+                        <i class="fab fa-map-marked fa-4x text-warning"></i>
+                        <i class="fab fa-umbrella fa-4x text-warning"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="intrest-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card skewx">
+                    <div class="card-body">
+                        <h1 class="text-success">Sleeping</h1>
+                        <i class="fab fa-arrow-circle-right fa-4x text-warning"></i>
+                        <i class="fab fa-bed fa-4x text-warning"></i>
+                        <i class="fab fa-code fa-4x text-warning"></i>
+                        <i class="fab fa-car-battery fa-4x text-warning"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="certificates-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card skew">
+                    <div class="card-header">
+                        <h1 class="text-info">My Certificates</h1>
+                        <p class="lead mt-4 text-center  text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo officia, repellendus? Architecto consequuntur culpa cum, deleniti, dolor dolore dolorem excepturi ipsa minima nobis odit omnis porro quas suscipit temporibus. Commodi delectus earum et explicabo fugit, non nostrum nulla officiis veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="certificates-section p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-4">
+
+            </div>
+            <div class="col-md-3">
+                <div class="card rotate">
+                    <div class="card-body">
+                        <img src="dsr/dhoni2.jpg" class="img-thumbnail img-fluid w-50 course-img text-center rounded-circle">
+
+                        <p class="lead mt-2 ml-1 text-light bg-dark">Lorem ipsum dolor  dolor dolore dolorem excepturi  porro quas suscipit temporibus. Commodi delectus earum et explicabo fugit, non nostrum nulla officiis veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card rotate">
+                    <div class="card-body">
+                        <img src="dsr/pspk00.jpg" class="img-thumbnail img-fluid w-50 course-img text-center rounded-circle">
+
+                        <p class="lead mt-2 ml-1 text-light bg-secondary">Lorem ipsum dolor  dolor dolore dolorem excepturi  porro quas suscipit temporibus. Commodi delectus earum et explicabo fugit, non nostrum nulla officiis veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card rotate">
+                    <div class="card-body">
+                        <img src="dsr/clg1.jpg" class="img-thumbnail img-fluid w-75 course-img text-center rounded-circle">
+
+                        <p class="lead mt-2 ml-1 text-light bg-danger"> Commodi delectus earum et explicabo fugit, non nostrum nulla officiis veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+</body>
+</html>

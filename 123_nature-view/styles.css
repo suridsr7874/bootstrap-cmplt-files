@@ -1,0 +1,7 @@
+#image1{
+    overflow: hidden;
+    transition: all 0.5s;
+}
+#image1:hover{
+    transform: scale(1.2,1.2);
+}

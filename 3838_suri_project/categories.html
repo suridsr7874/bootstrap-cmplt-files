@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+        .bg-info, .bg-success , .bg-secondary{
+            background: linear-gradient(45deg, black,greenyellow);
+        }
+        .btn-teal{
+            background: linear-gradient(45deg,black,green);
+        }
+    </style>
+</head>
+<body>
+Main Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a href="index.html" class="navbar-brand text-warning">
+            <i class="fa fa-snowflake"></i> UiBrains</a>
+        <button class="navbar-toggler" data-target="#ui-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ui-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa fa-chart-bar text-muted"></i> Dashboard</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="tasks.html" class="nav-link">
+                        <i class="fa fa-list text-muted"></i> Tasks</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="categories.html" class="nav-link">
+                        <i class="fa fa-sitemap text-muted"></i> Categories</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="employees.html" class="nav-link">
+                        <i class="fa fa-users text-muted"></i> Employees</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <i class="fa fa-sign-in-alt text-muted"></i> Naveen
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="profile.html" class="dropdown-item">
+                            <i class="fa fa-user-circle"></i> Profile</a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fa fa-cog"></i> Settings</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a href="login.html" class="nav-link">
+                        <i class="fa fa-sign-out-alt text-muted"></i> SignOut</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Category Search -->
+<section class="p-2 bg-info text-warning">
+         <div class="container">
+             <div class="row">
+                 <div class="col animated flip">
+                     <h1><i class="fa fa-sitemap"></i> catageries</h1>
+
+                 </div>
+             </div>
+         </div>
+</section>
+<!-- Category Search -->
+<section class="p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-inline">
+                            <div class="form-group">
+                            <input type="text" size="35" class="form-control " placeholder="search">
+                            </div>
+                            <input type="submit" value="search" class="btn btn-success">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+</section>
+
+<!-- Category Table -->
+<section class="p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card btn-teal animated jello">
+                            <div class="card-header">
+                                <h1>category details</h1>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead class="bg-success text-white mt-2">
+                                    <tr>
+                                        <th>SNO</th>
+                                        <th>EMPLOYEE</th>
+                                        <th>EMAIL</th>
+                                        <th>TASK NAME</th>
+                                        <th>LEVEL</th>
+                                        <th>CATEGORY</th>
+                                        <th>DETAILS</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody class="text-white">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>surendra</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>suri</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>vinod</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>vnky</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>kiran</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>salam</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>pawan</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>kalyan</td>
+                                        <td>rajan@gmail.com</td>
+                                        <td>Automation Emails</td>
+                                        <td>Medium</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <a href="#"class="btn btn-outlinw-success sm">
+                                                <i class="fa fa-arrow-circle-right"></i> details</a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+</section>
+
+<!-- Main Footer -->
+<footer class="p-3 bg-secondary text-white text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Copyright © 2019 , UiBrains.com</h3>
+                        <h6>All Rights Reserved</h6>
+                        <h6>Developed & Maintained by suri
+                        <a href="#">
+                            <i class="fa fa-users"></i> <span style="color: orangered">ui-brains</span></a>
+                        </h6>
+                    </div>
+                </div>
+             </div>
+</footer>
+
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>

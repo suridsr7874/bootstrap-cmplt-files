@@ -1,0 +1,52 @@
+.bg-teal , .btn-teal{
+    background: linear-gradient(45deg,black,#105555) !important;
+}
+.text-teal{
+    color: #113a3a !important;
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,green) !important;
+}
+.text-success{
+    color: darkgreen !important;
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orangered) !important;
+}
+.text-warning{
+    color: orangered !important;
+}
+.carousel .carousel-indicators li {
+    height: 5px;
+    width: 30px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.course-img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #113a3a;
+}
+.t_img{
+    box-shadow: 0 0 10px #113a3a;
+    margin-top: -50px;
+}
+.t_card , .c_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #113a3a;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #113a3a;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover h3 , .t_card:hover p , .t_card:hover .fab{
+    color: white !important;
+}
+
+.c_card:hover{
+    background-color: #113a3a;
+    transform: perspective(400px) rotateY(-10deg);
+}
+.c_card:hover h3 , .c_card:hover p , .c_card:hover .fa , .c_card:hover .fab{
+    color: white !important;
+}

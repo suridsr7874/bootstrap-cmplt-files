@@ -1,0 +1,46 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+}
+.dropdown-item:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.bg-teal , .btn-teal{
+    background: linear-gradient(45deg,black,#004141);
+}
+.text-teal{
+    color: #004141 !important;
+}
+.bg-primary , .btn-primary{
+    background: linear-gradient(45deg,black,blue) !important;
+}
+.text-primary{
+    color: darkblue !important;
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,green) !important;
+}
+.text-success{
+    color: darkgreen !important;
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orangered) !important;
+}
+.text-warning{
+    color: orangered !important;
+}
+.bg-secondary , .btn-secondary{
+    background: linear-gradient(45deg,black,purple) !important;
+}
+.bg-danger , .btn-danger{
+    background: linear-gradient(45deg,black,red) !important;
+}
+
+.btn-dark{
+    background: linear-gradient(45deg,black,gray) !important;
+}
+.profile-img{
+    box-shadow: 0 0 10px #004141;
+    border-radius: 10px;
+}

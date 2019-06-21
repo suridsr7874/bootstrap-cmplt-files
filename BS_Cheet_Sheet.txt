@@ -1,0 +1,202 @@
+BS Typography
+-------------
+display-1
+display-2
+display-3
+display-4
+lead ,text-muted
+font-weight-bold
+font-weight-normal
+font-italic
+text-uppercase
+text-lowecase
+text-capitalize
+list-unstyled
+
+
+BS Text Alignments
+------------------
+text-left
+text-center
+text-right
+
+text-sm-right
+text-md-right
+text-lg-right
+text-xl-right
+
+d-inline
+d-inline-block
+d-block
+d-flex
+flex-row
+flex-column
+
+BS Floats Positions
+-------------------
+float-left
+float-right
+float-none
+
+float-sm-left
+float-md-left
+float-lg-left
+float-xl-left
+
+BS COLORS , BG COLORS
+----------------------
+text-primary
+text-secondary
+text-success
+text-warning
+text-danger
+text-lighte
+text-white
+text-dark
+text-info
+
+bg-primary
+bg-secondary
+bg-success
+bg-warning
+bg-danger
+bg-lighte
+bg-white
+bg-dark
+bg-info
+
+BS Margins / Paddings
+----------------------
+ml , mr , mb , mt , mx , my , m 
+0,1,2,3,4,5,auto
+
+pl , pr , pb , pt , px , py , p
+0,1,2,3,4,5,auto
+
+BS Sizing
+----------
+w-25 , w-50 , w-75 , w-100
+h-25 , h-50 , h-75 , h-100
+
+BS Break points
+----------------
+mobile -> mw-576px -> sm
+tablet -> mw-768px -> md
+laptop -> mw-992px -> lg
+xlarge -> mw-1200px -> xl
+
+
+BS Buttons
+----------
+btn-primary
+btn-secondary
+btn-success
+btn-warning
+btn-danger
+btn-lighte
+btn-white
+btn-dark
+btn-info
+
+bg-outline-primary
+bg-outline-secondary
+bg-outline-success
+bg-outline-warning
+bg-outline-danger
+bg-outline-lighte
+bg-outline-white
+bg-outline-dark
+bg-outline-info
+
+btn-lg , btn-sm , btn-block , btn-group , btn-toolbar
+
+List Groups
+-------------
+list-group
+list-group-item
+list-group-item-primary(6)
+list-group-item-action
+
+badge 
+badge-primary
+badge-secondary
+badge-success
+badge-warning
+badge-danger
+badge-lighte
+badge-white
+badge-dark
+badge-info
+
+BS Forms
+-----------
+form-group , form-control
+
+BS Alerts
+---------
+alert
+alert-link
+alert-primary
+alert-secondary
+alert-success
+alert-warning
+alert-danger
+alert-lighte
+alert-white
+alert-dark
+alert-info
+
+BS Tables
+---------
+table
+table-hover
+table-bordered
+table-primary
+table-secondary
+table-success
+table-warning
+table-danger
+table-light
+table-white
+table-dark
+table-info
+
+BS Cards
+--------
+card
+card-header
+card-body
+card-footer
+card-title
+card-subtitle
+card-img
+card-img-overlay
+
+BS Modals
+---------
+modal
+modal-dialog
+modal-content
+modal-header
+modal-body
+modal-footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
