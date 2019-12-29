@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+        .bg-light{
+            background: linear-gradient(45deg,black,teal)!important;
+
+        }
+        .btn-primary{
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .form-control:hover{
+            background-color: #0f6674;
+            color: white;
+        }
+        .bg-info{
+            background: linear-gradient(45deg,blue,black,blue)!important;
+        }
+    </style>
+</head>
+<body>
+<section class="p-3 bg-info">
+<div class="container">
+<div class="col-md-10">
+    <div class="card ">
+        <div class="card-header ">
+            <h1 class="text-center bg-light text-white">SignUp here</h1>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="UserName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>DOB</label>
+                    <input type="date" placeholder="UserName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="UserName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="Password" class="form-control">
+
+                </div>
+                <div class="form-group">
+                    <label>Mobile No</label>
+                    <input type="number" placeholder="UserName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Course</label>
+                    <select class="form-control">
+                        <option>html</option>
+                        <option>css</option>
+                        <option>bootstrap</option>
+                        <option>jscript</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <select class="form-control">
+                        <option class="form-control btn btn-outline-success btn-block">Male</option>
+                        <option class="form-control btn btn-outline-success btn-block">Female</option>
+                    </select>
+                </div>
+                <a href="#">Help</a>
+                <button class="btn btn-primary">Submit</button>
+                <a href="#">Contact</a>
+            </form>
+        </div>
+
+    </div>
+</div>
+</div>
+</section>
+<script src="6006_script.js"></script>
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
